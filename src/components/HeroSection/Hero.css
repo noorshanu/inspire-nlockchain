@@ -1,0 +1,110 @@
+.carousel-root {
+    width: 85% !important;
+    margin: auto !important;
+    margin-top: 3% !important;
+  }
+  
+  .carousel .slide {
+    background: rgb(0 0 0 / 0%) !important;
+    color: rgb(255, 255, 255);
+    height: 100%;
+  }
+
+  .box-size{
+    height: auto;
+    padding: 2% 8% 2% 8%;
+    width: auto;
+    background: #094e50;
+    border-radius: 10px;
+    margin-bottom: 10%;
+  }
+
+  .carousel .control-dots .dot {
+    background: #0fb7bc !important;
+    width: 58px !important;
+    height: 5px !important;
+    text-align: start;
+    justify-content: flex-start;
+    padding-top: 0%;
+    margin-top: 3% !important;
+  }
+
+  .second-box{
+    margin: auto;
+  }
+
+  .box-table{
+    text-align: center;
+    
+    background: #fff;
+    color: #000;
+      border: 1px solid #02E1E8;
+      border-radius: 35px;
+      margin: auto;
+      padding: 4%;
+  
+
+
+  }
+
+  .side-border{
+    border-right: 1px solid #02e1e8;
+  }
+
+  .box-table .col-md-3{
+    padding: 8px 0 1px 0px;
+  }
+
+  .box-table p{
+    border-bottom: 1px solid #02e1e8;
+    color: orange;
+    font-size: 21px;
+    padding-bottom: 5%;
+    font-weight: 600;
+  }
+
+  .box-table span{
+    font-size: 18px;
+    font-weight: 500;
+    
+  }
+  .mt-35{
+    margin-top: 35px;
+  }
+
+  .crl-2{
+    position: absolute;
+    left: 0px;
+    width: 23%;
+    height: 122%;
+    margin-top: -22%;
+  }
+  .clr5{
+    position: absolute;
+    width: 18%;
+    right: 0;
+}
+.crl4{
+  position:absolute;
+  margin-top: -14%;
+}
+  
+  @media only screen and (max-width: 600px) {
+    .clr-2{
+      display: none;
+    }
+    .crl4{
+      display: none;
+    }
+
+    .crl5{
+      display: none;
+    }
+    .box-table{
+     margin: 5%;
+    }
+
+    .side-border {
+      border-right: none;
+    }
+  }

@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+body{
+  background-color: #0E0F33 !important;
+  color: #fff !important;
+
+}
+
+a {
+  text-decoration: none;
+  color: #06898e;
+}
+
+li {
+  list-style: none;
+}
+
+
+a:hover {
+  color: #06898e;
+}
+
+section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.road-h2{
+  text-align: start;
+  padding-right: 21%;
+}
+.btn-btn-main{
+  margin-top: 5px;
+  background: #FFFFFF;
+  line-height: 30px;
+  font-size: 20px;
+  box-shadow: 0px 43px 123px rgb(0 0 0 / 50%);
+  border: 1px solid #01F6FE;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  padding: 0.5% 3% 0.5% 3%;
+  font-weight: 700;
+}
+
+.btn-btn-nav{
+  margin-top: 5px;
+
+  background: linear-gradient(96.54deg, #CC25BB 0%, #4008E1 100%);
+  box-shadow: 0px 45px 100px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+
+  border: 1px solid #01f6fe00;
+  
+  color: white;
+  font-size: 20px;
+  padding: 1.5% 5% 1.5% 5%;
+  box-sizing: border-box;
+}
+
+
+.btn-hero{
+  background: linear-gradient(180deg, #0C1717 72%, rgba(12, 23, 23, 0) 172%, rgba(12, 23, 23, 0) 172%);
+  border: 1px solid #fff;
+  border-radius: 12px;
+  padding: 4.5% 24% 4.5% 24%;
+  box-sizing: border-box;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-wrap{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ul{
+  margin-bottom: 0 !important;
+}
+
+.hero-btn{
+  text-align: center;
+  align-items: center
+  ;
+}
+.border-bot{
+  border-bottom: dashed;
+    border-color: #02E1E8;
+    padding-bottom: 5px;
+}
+.circle-dot {
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-box{
+  align-items: center;
+    gap: 2rem;
+    margin-top: 12px;
+}
+
+.dot-box h4{
+  font-size: 24px;
+  margin-top: 9px;
+}
+
+.img-road{
+  /* padding-left: 21%; */
+}
+.mb-10{
+  margin-bottom: 9%;
+}
+.road-h h4{
+  text-align: end;
+  line-height: 37px;
+
+}
+.road-h2 h4{
+  line-height: 37px;
+}
+.img-road img{
+  height: 200px;
+}
+.road-section{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.border-bot-2{
+  border-bottom: dashed;
+    border-color: #02E1E8;
+    padding-bottom: 5px;
+    text-align: end;
+}
+
+.img-road2{
+  text-align: end;
+}
+
+.img-road2 img{
+  height: 250px;
+}
+.head-text{
+  padding-top: 7%;
+}
+.head-text h1{
+  font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 108.5%;
+}
+.head-text p{
+ padding-bottom: 7%;
+  padding-top: 4%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.read-box{
+  margin: 5%;
+    background: linear-gradient(180deg, #13144F 0%, #090A25 100%);
+    box-shadow: 0px 0px 201px rgb(0 0 0 / 10%);
+
+}
+
+
+.red-line3::after{
+  content: "";
+  height: 3px;
+  position: absolute;
+  /* top: 50%; */
+  width: 26%;
+  z-index: 0;
+  margin-top: 35px;
+  right: 12%;
+  -webkit-transform: matrix(-1,0,0,1,0,0) translateY(-50%);
+ 
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.red-line3::before{
+  content: "";
+  height: 3px;
+  position: absolute;
+  /* top: 50%; */
+  width: 26%;
+  z-index: 0;
+  margin-top: 32px;
+  left: 12%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+}
+
+.road-box{
+  
+background: linear-gradient(180deg, #13144F 0%, #090A25 100%);
+box-shadow: 0px 0px 201px rgba(0, 0, 0, 0.1);
+margin: 2%;
+padding: 7%;
+}
+
+.bottom-b{
+  width: 60%;
+  background: #fff;
+  height: 9px;
+}
+
+.world-p{
+  padding: 6% 16%;
+}
+.world-p p{
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.world-img{
+  height: 300px;
+  text-align: center;
+}
+
+.world-i{
+  text-align: center;
+  padding: 5%;
+}
+.world-h{
+  padding: 5.5% 7%;
+}
+
+.eco-box{
+  background: linear-gradient(180deg, #0D0F44 0%, #090A25 100%);
+box-shadow: 0px 0px 201px rgba(0, 0, 0, 0.1);
+margin: 5%;
+text-align: center;
+width: 100%;
+    height: 100%;
+}
+
+.eco-sub{
+  padding: 12%;
+}
+
+.eco-sub img{
+  height: 75px;
+}
+.eco-sub h2{
+  color: purple;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.margin-auto{
+  margin: auto;
+}
+
+.world-box{
+  filter: drop-shadow(0px 4px 68px rgba(0, 0, 0, 0.5));
+    border-radius: 25px;
+    border: 2px solid;
+    margin: 2%;
+    width: 25%;
+}
+
+.cold{
+  text-align: center;
+  line-height: 25px;
+  padding: 9%;
+  margin: 0%;
+}
+.world-sub-box
+{
+  background: linear-gradient(180deg, #470ADA 0%, #CC25BB 100%);
+    box-shadow: 0px 26px 40px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    width: 40%;
+   
+    padding: 5%;
+    position: absolute;
+    top: -25%;
+  
+    left: 95px;
+
+}
+.cold h2{
+  padding-top: 25%;
+}
+
+.Icon-sec{
+margin-top: 20px;
+margin-bottom: 10%;
+}
+
+.pl-10{
+  padding-left: 10%;
+}
+.justify-content-space-between{
+  justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+  .eco-box{
+   
+  width: 90%;
+     
+  }
+
+  .btn-btn-main{
+    padding: 0.5% 13% 0.5% 13%;
+  }
+  .btn-wrap {
+    
+    margin-bottom: 41px;
+  }
+
+  section {
+    padding-top: 5px;
+    padding-bottom: 21px;
+  }
+ .world-p {
+    padding: 6% 6%;
+  }
+  .world-p p {
+    font-size: 14px;
+  
+    line-height: 30px;
+  }
+  .world-img {
+    height: 190px;
+   
+  }
+  .mb-10{
+    margin-bottom: 12%;
+  }
+  .d-flex-2{
+    flex-direction: column;
+  }
+  .world-h {
+    padding: 16.5% 7%;
+  }
+  .world-box {
+    filter: drop-shadow(0px 4px 68px rgba(0, 0, 0, 0.5));
+    border-radius: 25px;
+    border: 2px solid;
+    margin: 3% 0% 20% 4%;
+    width: 91%;
+  }
+
+  .red-line3::before {
+ 
+    width: 15%;
+    
+    left: 4%;
+    
+}
+
+.red-line3::after {
+
+  width: 15%;
+ 
+
+  right: 4%;
+ 
+}
+.img-road2 {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.img-road {
+
+  text-align: center;
+  margin-bottom: 2%;
+}
+.img-road img {
+  height: 94px;
+}
+.img-road2 img {
+  height: 94px;
+}
+.road-h h4 {
+text-align: start;
+font-size: 14px;
+}
+.road-h2 h4{
+  font-size: 14px;
+}
+.bottom-b {
+  width: 46%;
+  margin-top: 12px;
+  background: #fff;
+  height: 5px;
+}
+.blue-side{
+  height: 200px;
+}
+.red-side{
+  height: 100%;
+}
+.flex-row-2{
+  flex-direction: column;
+}
+}

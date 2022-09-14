@@ -1,0 +1,143 @@
+
+
+/* .header-tag-2:after{
+    content: '';
+    background:url('../../images/Line2.png');
+    
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+  } */
+
+  .toko-box{
+    width: 36%;
+    margin: 30px auto 0 auto;
+  }
+
+.mt-30{
+  margin-top: 30px;
+}
+
+
+.dot{
+    gap: 3.5rem;
+    margin-bottom: 30px;
+    margin-left: 30%;
+}
+
+.dot img{
+    width: 31px;
+    height: 31px;
+}
+
+.dot h2{
+    font-size: 22px;
+}
+
+.side-line{
+  height: 54px;
+  width: 3px;
+  margin-top: 5px;
+  background: white;
+  padding-right: 10px;
+  margin-right: 12px;
+}
+
+.m-box{
+  background: linear-gradient(180deg, #CC25BB 0%, #004D7C 100%);
+    max-width: 213px;
+    height: 168px;
+    padding: 1rem;
+    position: relative;
+    padding: 6px;
+    margin-top: 6rem;
+    border-radius: 11px;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.s-box{
+  background-color: #0E0F33;
+    padding: 3.4rem;
+    border-radius: 10px;
+
+}
+
+
+
+.red-line2::after{
+  content: "";
+  height: 3px;
+  position: absolute;
+  /* top: 50%; */
+  width: 26%;
+  z-index: -20;
+  margin-top: 35px;
+  right: 12%;
+  -webkit-transform: matrix(-1,0,0,1,0,0) translateY(-50%);
+ 
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.red-line2::before{
+  content: "";
+  height: 3px;
+  position: absolute;
+  /* top: 50%; */
+  width: 26%;
+  z-index: -20;
+  margin-top: 32px;
+  left: 12%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+}
+.toko-side{
+  position: absolute;
+    /* left: 0; */
+    width: 42%;
+    right: 0;
+    margin-top: -13%;
+}
+.gap-5{
+  gap: 4rem !important;
+}
+@media only screen and (max-width: 600px) {
+  .toko-side{
+    display: none;
+  }
+  .gap-5{
+    gap: 1rem !important;
+  }
+
+  .red-line2::before {
+    width: 12%;
+    left: 1%;
+  }
+  .red-line2::after {
+    width: 12%;
+    margin-top: 35px;
+    right: 1%;
+  }
+  .m-box {
+
+    height: 100px;
+
+    padding: 4px;
+    margin-top: 1rem;
+
+    margin-bottom: 0rem;
+
+  }
+  .s-box {
+
+    padding: 1.4rem;
+   
+}
+.toko-box {
+  width: 100%;
+  margin: 30px auto 0 auto;
+}
+}

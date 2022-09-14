@@ -1,0 +1,35 @@
+.footer-box{
+
+    max-width: auto;
+    margin: auto;
+    overflow: hidden;
+}
+.footer-sub{
+    background: linear-gradient(97.35deg, #0C0A25 0%, #0D0F44 100%);
+box-shadow: 0px 0px 201px rgba(0, 0, 0, 0.1);
+border-radius: 50px;
+border-radius: 15px;
+padding: 3% 10% 3% 7%;
+
+}
+
+footer{
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+.footer-sub .row{
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-sub .row .col-md-3 img{
+    height: 75px;
+    margin-left: -25px;
+}
+
+.foot-btn{
+    background: linear-gradient(112.3deg, #CC25BB 0%, #470ADA 104.05%);
+box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.4);
+border-radius: 25px;
+padding: 40% 40% 40% 40%;
+}

@@ -1,0 +1,65 @@
+.dot{
+    width: 30px !important;
+    border-radius: 3px !important;
+}
+
+.carousel .slide{
+    text-align: start !important;
+}
+
+.carousel .control-dots{
+    text-align: start !important;
+    margin: 32px 85px !important;
+}
+
+.third-box{
+    margin: auto;
+    text-align: center;
+    padding: 3% 16% 4% 15%;
+    font-size: 33px;
+}
+.blue-side{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+
+}
+.red-side{
+    position: absolute;
+    top: 0;
+    right: 0;
+z-index: -2;
+}
+.top-circle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* width: 32%; */
+    height: 119%;
+}
+
+@media only screen and (max-width: 600px) {
+    .top-circle{
+        display: none;
+    }
+    .head-text h1 {
+        font-weight: 600;
+        font-size: 45px;
+       
+    }
+    .head-text p {
+        font-size: 11px;
+        
+    }
+    .carousel .control-dots {
+        text-align: start !important;
+        margin: 0px 0px !important;
+    }
+
+    .third-box {
+        
+        padding: 3% 5% 0% 5%;
+        font-size: 21px;
+      }
+}
