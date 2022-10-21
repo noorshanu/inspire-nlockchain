@@ -11,7 +11,7 @@ function HeroSection() {
         <div className='container'>
 
 
-
+{/* 
             <div className='col-md-8 second-box'>
                 <div className='row box-table'>
                     <div className='col-md-3 side-border'>
@@ -37,13 +37,13 @@ function HeroSection() {
 
                 </div>
 
-            </div>
-            <div className='third-box'>
+            </div> */}
+            {/* <div className='third-box'>
                 <p>Reimagine finance to live a fully inspired live and impact people, families, Communities and local economies.</p>
             </div>
             <div className='text-center mt-35'>
             <a className='btn-btn-main' href='/'>BUY</a>
-            </div>
+            </div> */}
 
             <ButtonSection/>
             

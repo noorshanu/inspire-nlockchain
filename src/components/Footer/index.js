@@ -38,7 +38,7 @@ function Footer() {
               <div className='col-md-3'>
                 <div>
                   <a href='/'><p>About</p></a>
-                  <a href='/'><p>tokenomics</p></a>
+                  {/* <a href='/'><p>tokenomics</p></a> */}
                   <a href='/'><p>roadmap</p></a>
                   <a href='/'><p>contract</p></a>
 
@@ -51,7 +51,7 @@ function Footer() {
               <div className='col-md-3'>
               <div>
                   <a href='/'><p>About</p></a>
-                  <a href='/'><p>tokenomics</p></a>
+                  {/* <a href='/'><p>tokenomics</p></a> */}
                   <a href='/'><p>roadmap</p></a>
                   <a href='/'><p>contract</p></a>
 

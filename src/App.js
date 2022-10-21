@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar  from './components/Navbar/Navbar';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection'
-import Tokonomic from './components/Tokenomic';
+// import Tokonomic from './components/Tokenomic';
 import Roadmap from './components/RoadMap';
 import World from './components/World'
 import HeaderSection from 'components/HeaderSection';
@@ -18,7 +18,7 @@ function App() {
     <HeaderSection/>
     <HeroSection/>
     <AboutSection/>
-    <Tokonomic/>
+    {/* <Tokonomic/> */}
     <Roadmap/>
     <World/>
     <Ecosystem/>
