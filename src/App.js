@@ -4,7 +4,7 @@ import Navbar  from './components/Navbar/Navbar';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection'
 // import Tokonomic from './components/Tokenomic';
-import Roadmap from './components/RoadMap';
+// import Roadmap from './components/RoadMap';
 import World from './components/World'
 import HeaderSection from 'components/HeaderSection';
 import Ecosystem from 'components/Ecosystem';
@@ -19,7 +19,7 @@ function App() {
     <HeroSection/>
     <AboutSection/>
     {/* <Tokonomic/> */}
-    <Roadmap/>
+    {/* <Roadmap/> */}
     <World/>
     <Ecosystem/>
     <Eco/>
